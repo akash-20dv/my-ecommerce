@@ -1,0 +1,21 @@
+@import "../../../css-config/mixins.scss";
+.category-wrapper{
+        width: calc(100% - 5vw);
+        margin: auto;
+        .categories{
+            display: flex;
+            justify-content: space-around;
+            
+            .category-box{ 
+                position:relative; 
+                overflow: hidden;
+
+               .category-box-inner{
+                width: 100%;
+                padding: 20px;
+               }
+           }
+
+        }
+        
+}

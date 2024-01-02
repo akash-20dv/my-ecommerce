@@ -1,0 +1,56 @@
+@import "../../../css-config/mixins.scss";
+.banner-wrapper{
+    background:linear-gradient(#4c2458 20% , #944949 100%);
+.banner-image-home{
+    max-width: 90%;
+    /* height: 600px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+    gap: 35px;
+    padding: 25px;
+    img{
+        width: 100%;
+        height: 500px;
+    }
+    .left-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-inline: 2rem;
+        h1{
+            color: #f6f6f6;
+            font-size: calc(35% + 4vw);
+            line-height: 41px;
+            margin-bottom: 13px;
+        }
+        p{
+            color: #f6f6f6;
+        }
+        .buttons-home-banner{
+            display: flex;
+            color: white;
+            gap: 19px;
+            justify-content: center;
+            padding-top: 14px;
+            a{
+                color: rgb(88, 31, 88);
+                background-color: #f6f6f6;
+                padding: 5px 10px;
+                text-decoration: none;
+            }
+            a:first-child{
+                padding: 5px 10px;
+                text-decoration: none;
+                color: white;
+                background-color: transparent;
+                border: 1px solid white;
+            }
+        }
+    }
+}
+}

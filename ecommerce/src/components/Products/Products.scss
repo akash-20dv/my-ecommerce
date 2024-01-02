@@ -1,0 +1,17 @@
+@import "../../css-config/mixins.scss";
+.popular-products-div{
+    background: #f1f1f1;
+    padding: 20px;
+    .products-section-heading{
+        font-size: 23px;
+        text-transform: capitalize;
+       margin-bottom: 20px;
+    }
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    
+    }
+}

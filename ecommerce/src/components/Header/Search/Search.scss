@@ -1,0 +1,57 @@
+@import "../../../css-config/mixins.scss";
+.searchbar-products{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    z-index: 99;
+    background-color: rgb(255, 255, 255);
+    transform: translateY(100%);
+    animation: slideSearchModal 0.4s forwards;
+    .input-box{
+        position: relative;
+        width: 100%;
+        input{
+            width: 100%;
+            font-size: 47px;
+            padding: 10px 20px;
+            color: #000000b4;
+            text-align: center;
+        }
+        .close-svg{
+            position: absolute;
+            top: 0px;
+            right: 10px;
+            font-size: 49px;
+            font-weight: 800;
+            color: purple;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+    }
+    .product-box{
+        display: flex;
+        gap: 20px;
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px 33px;
+        justify-content: center;
+        border-bottom: 1px solid lightgray;
+    
+        .product-img{
+            width: 70px;
+            border: 1px solid lightgrey;
+        }
+        .product-details{
+            width: 70%;
+        }
+    }
+}
+@keyframes slideSearchModal {
+    0% { transform: translateY(100%); opacity: 0.5;}
+    100% { transform: translateY(0%); opacity: 1;}
+}
