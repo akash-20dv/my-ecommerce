@@ -1,1 +1,1 @@
-E-ommerce Store Full Stack Web Application Built in ReactJS.
+E-commerce Store Full Stack Web Application Built in ReactJS.
